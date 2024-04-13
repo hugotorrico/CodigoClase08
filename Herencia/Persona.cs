@@ -19,6 +19,19 @@ namespace Herencia
             return Edad > 18;
         }
 
+        public Persona()
+        {
+
+        }
+
+        public Persona(string Nombres,string Apellidos, string DNI, int Edad )
+        {
+            this.Nombres = Nombres;
+            this.Apellidos = Apellidos;
+            this.DNI = DNI;
+            this.Edad = Edad;
+        }
+
 
 
 

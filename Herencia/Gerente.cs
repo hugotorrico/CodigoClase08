@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Herencia
 {
-     class Vendedor : Trabajador
+     class Gerente :Trabajador
     {
-        public string Codigo { get; set; }
-
-       
+        public DateTime FechaIngreso { get; set; }
     }
 }
